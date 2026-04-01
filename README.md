@@ -4,7 +4,7 @@
 
 I'm an IT Infrastructure professional with hands-on experience in system 
 administration, virtualization, networking, and cloud computing. I build 
-reliable, secure, and scalable infrastructure — from on-premise Windows/Linux 
+reliable, secure, and scalable infrastructure from on-premise Windows/Linux 
 environments to cloud-hosted deployments on AWS.
 
 Currently expanding into **Cloud Infrastructure** and **DevOps** practices, 
@@ -56,17 +56,4 @@ Technical Documentation · Team Collaboration · Problem Solving · Customer Sup
 
 ---
 
-*Open to freelance infrastructure projects and remote consulting opportunities.*<!--
-**anastanveer653/anastanveer653** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*Open to freelance infrastructure projects and remote consulting opportunities.*

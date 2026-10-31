@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="214" viewBox="0 0 440 214" role="img" aria-label="HR Time: HR, attendance and leave management with role-based access, on Clean Architecture.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1626"/>
+      <stop offset="1" stop-color="#10273a"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="438" height="212" rx="14" fill="url(#bg)" stroke="#1e3a4f"/>
+  <rect x="1" y="1" width="6" height="212" rx="3" fill="#818cf8"/>
+  <text x="28" y="36" class="mono" font-size="11" letter-spacing="1.5" fill="#818cf8">PRIVATE · IN DEVELOPMENT</text>
+  <text x="28" y="68" class="sans" font-size="22" font-weight="700" fill="#f8fafc">HR Time</text>
+  <text x="28" y="104" class="sans" font-size="14" fill="#cbd5e1">HR, attendance and leave management with</text>
+  <text x="28" y="126" class="sans" font-size="14" fill="#cbd5e1">role-based access, on Clean Architecture.</text>
+  <text x="412" y="62" class="sans" font-size="34" font-weight="800" fill="#818cf8" text-anchor="end">4</text>
+  <text x="412" y="80" class="mono" font-size="11" fill="#94a3b8" text-anchor="end">user roles</text>
+  <rect x="28" y="166" width="62" height="24" rx="12" fill="#818cf8" fill-opacity="0.14" stroke="#818cf8" stroke-opacity="0.45"/>
+  <text x="59" y="182" class="mono" font-size="12" fill="#e2e8f0" text-anchor="middle">Blazor</text>
+  <rect x="98" y="166" width="69" height="24" rx="12" fill="#818cf8" fill-opacity="0.14" stroke="#818cf8" stroke-opacity="0.45"/>
+  <text x="132" y="182" class="mono" font-size="12" fill="#e2e8f0" text-anchor="middle">EF Core</text>
+  <rect x="175" y="166" width="90" height="24" rx="12" fill="#818cf8" fill-opacity="0.14" stroke="#818cf8" stroke-opacity="0.45"/>
+  <text x="220" y="182" class="mono" font-size="12" fill="#e2e8f0" text-anchor="middle">SQL Server</text>
+  <rect x="273" y="166" width="34" height="24" rx="12" fill="#818cf8" fill-opacity="0.14" stroke="#818cf8" stroke-opacity="0.45"/>
+  <text x="290" y="182" class="mono" font-size="12" fill="#e2e8f0" text-anchor="middle">C#</text>
+</svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
-  <title id="title">Anas Tanveer — Infrastructure, DevOps &amp; .NET Engineer</title>
-  <desc id="desc">AWS, Terraform, Ansible, Docker, Windows Server, Linux, Blazor and SQL Server. Karachi, Pakistan, open to remote work.</desc>
+  <title id="title">Anas Tanveer — IT Infrastructure Engineer, Servers &amp; Networks</title>
+  <desc id="desc">Windows Server, Active Directory, Cisco, VMware, Grandstream VoIP, Vutlan monitoring, with automation and .NET development. Karachi, Pakistan, open to on-site and remote roles.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -29,8 +29,8 @@
   <!-- Left: identity -->
   <text x="64" y="92" class="mono" font-size="18" fill="#5eead4">~ $ whoami</text>
   <text x="64" y="160" class="sans" font-size="64" font-weight="700" fill="#f8fafc">Anas Tanveer</text>
-  <text x="64" y="206" class="sans" font-size="28" font-weight="600" fill="#cbd5e1">Infrastructure, DevOps &amp; .NET Engineer</text>
-  <text x="64" y="250" class="mono" font-size="16" fill="#94a3b8">AWS · Terraform · Ansible · Docker · Windows Server · Linux · Blazor · SQL Server</text>
+  <text x="64" y="206" class="sans" font-size="28" font-weight="600" fill="#cbd5e1">IT Infrastructure Engineer · Servers &amp; Networks</text>
+  <text x="64" y="250" class="mono" font-size="16" fill="#94a3b8">Windows Server · Active Directory · Cisco · VMware · Grandstream · Vutlan · .NET</text>
   <rect x="64" y="272" width="56" height="4" rx="2" fill="#2dd4bf"/>
 
   <!-- Right: a small infrastructure topology -->
@@ -69,5 +69,5 @@
   <circle class="node" cx="1200" cy="120" r="9"/>
   <text x="1216" y="102" class="mono label" text-anchor="middle">config</text>
 
-  <text x="1216" y="290" class="mono" font-size="14" fill="#64748b" text-anchor="end">Karachi, PK · UTC+5 · open to remote work</text>
+  <text x="1216" y="290" class="mono" font-size="14" fill="#64748b" text-anchor="end">Karachi, PK · UTC+5 · open to on-site &amp; remote roles</text>
 </svg>

@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://anastanveerr.vercel.app"><img src="https://img.shields.io/badge/Portfolio-anastanveerr.vercel.app-2DD4BF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="mailto:anastanveer653@gmail.com"><img src="https://img.shields.io/badge/Email-anastanveer653%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/anastanveer-it/"><img src="https://img.shields.io/badge/LinkedIn-anastanveer--it-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/Open_to-on--site_%26_remote_roles-16A34A?style=for-the-badge" alt="Open to on-site and remote roles">
@@ -86,5 +87,5 @@ anas:
 <a href="mailto:anastanveer653@gmail.com"><img src="assets/footer.svg" width="100%" alt="Let's work together. IT infrastructure, systems and network roles, on-site or remote. Email anastanveer653@gmail.com"></a>
 
 <p align="center">
-  <a href="mailto:anastanveer653@gmail.com">anastanveer653@gmail.com</a> · <a href="https://www.linkedin.com/in/anastanveer-it/">linkedin.com/in/anastanveer-it</a> · Karachi, Pakistan (UTC+5)
+  <a href="https://anastanveerr.vercel.app">anastanveerr.vercel.app</a> · <a href="mailto:anastanveer653@gmail.com">anastanveer653@gmail.com</a> · <a href="https://www.linkedin.com/in/anastanveer-it/">linkedin.com/in/anastanveer-it</a> · Karachi, Pakistan (UTC+5)
 </p>

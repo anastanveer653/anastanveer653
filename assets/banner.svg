@@ -28,9 +28,21 @@
 
   <!-- Left: identity -->
   <text x="64" y="92" class="mono" font-size="18" fill="#5eead4">~ $ whoami</text>
+  <rect x="180" y="77" width="10" height="19" fill="#5eead4">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
   <text x="64" y="160" class="sans" font-size="64" font-weight="700" fill="#f8fafc">Anas Tanveer</text>
   <text x="64" y="206" class="sans" font-size="28" font-weight="600" fill="#cbd5e1">IT Infrastructure Engineer · Servers &amp; Networks</text>
-  <text x="64" y="250" class="mono" font-size="16" fill="#94a3b8">Windows Server · Active Directory · Cisco · VMware · Grandstream · Vutlan · .NET</text>
+  <!-- Rotating focus line: each item shows for 3 s of an 18 s cycle -->
+  <text x="64" y="250" class="mono" font-size="17" fill="#2dd4bf">▸</text>
+  <g class="mono" font-size="17" fill="#e2e8f0">
+    <text x="88" y="250" opacity="0">Windows Server &amp; Active Directory<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.15;0.167;1" dur="18s" begin="0s" repeatCount="indefinite"/></text>
+    <text x="88" y="250" opacity="0">Cisco routing, switching &amp; VLANs<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.15;0.167;1" dur="18s" begin="3s" repeatCount="indefinite"/></text>
+    <text x="88" y="250" opacity="0">VMware, Hyper-V &amp; pfSense firewalls<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.15;0.167;1" dur="18s" begin="6s" repeatCount="indefinite"/></text>
+    <text x="88" y="250" opacity="0">Grandstream VoIP &amp; Vutlan monitoring<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.15;0.167;1" dur="18s" begin="9s" repeatCount="indefinite"/></text>
+    <text x="88" y="250" opacity="0">PowerShell, Ansible &amp; Terraform automation<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.15;0.167;1" dur="18s" begin="12s" repeatCount="indefinite"/></text>
+    <text x="88" y="250" opacity="0">C#, .NET Blazor &amp; SQL Server<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.15;0.167;1" dur="18s" begin="15s" repeatCount="indefinite"/></text>
+  </g>
   <rect x="64" y="272" width="56" height="4" rx="2" fill="#2dd4bf"/>
 
   <!-- Right: a small infrastructure topology -->

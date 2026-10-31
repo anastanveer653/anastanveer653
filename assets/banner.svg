@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Anas Tanveer — Infrastructure, DevOps &amp; .NET Engineer</title>
+  <desc id="desc">AWS, Terraform, Ansible, Docker, Windows Server, Linux, Blazor and SQL Server. Karachi, Pakistan, open to remote work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.6" stop-color="#0d1b2e"/>
+      <stop offset="1" stop-color="#0f2f3f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity="0.10"/>
+    </pattern>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .link { stroke: #2dd4bf; stroke-opacity: 0.35; stroke-width: 1.5; }
+      .node { fill: #0b1220; stroke: #2dd4bf; stroke-width: 2; }
+      .label { fill: #94a3b8; font-size: 13px; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="16" fill="url(#dots)"/>
+
+  <!-- Left: identity -->
+  <text x="64" y="92" class="mono" font-size="18" fill="#5eead4">~ $ whoami</text>
+  <text x="64" y="160" class="sans" font-size="64" font-weight="700" fill="#f8fafc">Anas Tanveer</text>
+  <text x="64" y="206" class="sans" font-size="28" font-weight="600" fill="#cbd5e1">Infrastructure, DevOps &amp; .NET Engineer</text>
+  <text x="64" y="250" class="mono" font-size="16" fill="#94a3b8">AWS · Terraform · Ansible · Docker · Windows Server · Linux · Blazor · SQL Server</text>
+  <rect x="64" y="272" width="56" height="4" rx="2" fill="#2dd4bf"/>
+
+  <!-- Right: a small infrastructure topology -->
+  <circle cx="1080" cy="150" r="130" fill="url(#glow)"/>
+  <g>
+    <line class="link" x1="1080" y1="64" x2="1080" y2="136"/>
+    <line class="link" x1="1080" y1="150" x2="985" y2="210"/>
+    <line class="link" x1="1080" y1="150" x2="1080" y2="225"/>
+    <line class="link" x1="1080" y1="150" x2="1175" y2="210"/>
+    <line class="link" x1="985" y1="210" x2="1080" y2="225"/>
+    <line class="link" x1="1080" y1="225" x2="1175" y2="210"/>
+    <line class="link" x1="985" y1="210" x2="960" y2="120" stroke-dasharray="4 5"/>
+    <line class="link" x1="1175" y1="210" x2="1200" y2="120" stroke-dasharray="4 5"/>
+  </g>
+
+  <!-- edge -->
+  <rect class="node" x="1056" y="40" width="48" height="24" rx="6"/>
+  <text x="1080" y="56" class="mono" font-size="11" fill="#5eead4" text-anchor="middle">edge</text>
+  <!-- load balancer -->
+  <circle class="node" cx="1080" cy="150" r="14"/>
+  <circle cx="1080" cy="150" r="5" fill="#2dd4bf">
+    <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1104" y="146" class="mono label">lb</text>
+  <!-- servers -->
+  <rect class="node" x="967" y="198" width="36" height="24" rx="5"/>
+  <rect class="node" x="1062" y="213" width="36" height="24" rx="5"/>
+  <rect class="node" x="1157" y="198" width="36" height="24" rx="5"/>
+  <circle cx="977" cy="210" r="3" fill="#22c55e"/>
+  <circle cx="1072" cy="225" r="3" fill="#22c55e"/>
+  <circle cx="1167" cy="210" r="3" fill="#22c55e"/>
+  <!-- monitoring and config management -->
+  <circle class="node" cx="960" cy="120" r="9"/>
+  <text x="944" y="102" class="mono label" text-anchor="middle">metrics</text>
+  <circle class="node" cx="1200" cy="120" r="9"/>
+  <text x="1216" y="102" class="mono label" text-anchor="middle">config</text>
+
+  <text x="1216" y="290" class="mono" font-size="14" fill="#64748b" text-anchor="end">Karachi, PK · UTC+5 · open to remote work</text>
+</svg>

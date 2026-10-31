@@ -30,9 +30,9 @@ anas:
 
 | | You get | Proof |
 |---|---|---|
-| 🖥️ | **Windows Server & Active Directory.** AD DS, Group Policy, OUs, DNS and DHCP, file and print servers and NTFS permissions, set up cleanly and kept documented. | Day job · home lab |
-| 🌐 | **Networks that stay up.** Cisco routing and switching, VLANs, VPN, NAT and subnetting, pfSense firewalls, and fault-finding with Wireshark. | Day job · home lab |
-| ☎️ | **VoIP and data-center monitoring.** Grandstream UCM IP PBX (extensions, SIP accounts) and Vutlan monitoring for server rooms and data-center equipment. | Day job |
+| 🖥️ | **Windows Server & Active Directory.** AD DS, Group Policy, OUs, DNS and DHCP, file and print servers and NTFS permissions, set up cleanly and kept documented. | Daily, on-site (current job) |
+| 🌐 | **Networks that stay up.** Cisco routing and switching, VLANs, VPN, NAT and subnetting, pfSense firewalls, and fault-finding with Wireshark. | Daily, on-site (current job) |
+| ☎️ | **VoIP and data-center monitoring.** Grandstream UCM IP PBX (extensions, SIP accounts) and Vutlan monitoring for server rooms and data-center equipment. | Daily, on-site (current job) |
 | 🛡️ | **Hardened, auditable Windows servers.** 107 controls mapped to CIS and MITRE ATT&CK, previewed before they change anything, verified after, and rolled back with one command. | [windows-server-hardening-toolkit](https://github.com/anastanveer653/windows-server-hardening-toolkit) |
 | 🐧 | **Linux servers configured the same way every time.** Idempotent Ansible roles for SSH, an nftables firewall, fail2ban, auditd and Docker, with checks that stop a bad variable from locking you out. | [ansible-linux-server-automation](https://github.com/anastanveer653/ansible-linux-server-automation) |
 | 📈 | **Monitoring people trust.** Prometheus, Grafana and Alertmanager in one command. Every alert has a unit test and a runbook. | [docker-monitoring-stack](https://github.com/anastanveer653/docker-monitoring-stack) |

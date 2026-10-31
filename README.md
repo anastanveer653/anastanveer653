@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Open_to-on--site_%26_remote_roles-16A34A?style=for-the-badge" alt="Open to on-site and remote roles">
 </p>
 
-## About
+## 👋 About
 
 I'm an IT infrastructure engineer on the server and network side. Every day I run Windows Server and Active Directory, Cisco switching and routing, VMware hosts, firewalls, Grandstream VoIP and Vutlan data-center monitoring, and I'm the person people call when something stops working.
 
@@ -26,7 +26,7 @@ anas:
   building: HR & attendance platform (.NET 10 Blazor, EF Core, SQL Server)
 ```
 
-## What I can do for your team
+## 💼 What I can do for your team
 
 | | You get | Proof |
 |---|---|---|
@@ -39,18 +39,31 @@ anas:
 | ☁️ | **AWS infrastructure as code.** VPC, load balancer behind WAF, auto-scaling instances with no SSH, KMS encryption and CloudWatch alarms, delivered by a keyless GitHub Actions pipeline (OIDC). | [terraform-aws-starter-kit](https://github.com/anastanveer653/terraform-aws-starter-kit) |
 | 🧩 | **Software when the team needs it.** A cross-platform Go CLI for encrypted secrets, and a Blazor + SQL Server HR system with role-based access. | [envy](https://github.com/anastanveer653/envy) · HR platform (private) |
 
-## Featured projects
+## 🚀 Featured projects
 
-| Project | What it does | Built with | CI |
-|---|---|---|---|
-| [**windows-server-hardening-toolkit**](https://github.com/anastanveer653/windows-server-hardening-toolkit) | PowerShell module that audits, hardens and rolls back Windows Server security settings, with HTML/JSON reports. Integration-tested on Server 2022 and 2025. | PowerShell, Pester | [![CI](https://github.com/anastanveer653/windows-server-hardening-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/anastanveer653/windows-server-hardening-toolkit/actions/workflows/ci.yml) |
-| [**ansible-linux-server-automation**](https://github.com/anastanveer653/ansible-linux-server-automation) | Turns a fresh Ubuntu, Debian or RHEL-family server into a hardened, monitored host. Molecule-tested on 6 distributions. | Ansible, Molecule | [![CI](https://github.com/anastanveer653/ansible-linux-server-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/anastanveer653/ansible-linux-server-automation/actions/workflows/ci.yml) |
-| [**docker-monitoring-stack**](https://github.com/anastanveer653/docker-monitoring-stack) | One-command observability for Docker hosts: 4 dashboards and 21 alerts, each unit-tested and with a runbook. CI starts the full stack and smoke-tests it. | Docker Compose, Prometheus, Grafana | [![CI](https://github.com/anastanveer653/docker-monitoring-stack/actions/workflows/ci.yml/badge.svg)](https://github.com/anastanveer653/docker-monitoring-stack/actions/workflows/ci.yml) |
-| [**terraform-aws-starter-kit**](https://github.com/anastanveer653/terraform-aws-starter-kit) | Highly available web tier on AWS with WAF, KMS, alarms and a gated, keyless deploy pipeline. 20 `terraform test` cases run without an AWS account. | Terraform, AWS, GitHub Actions | [![terraform](https://github.com/anastanveer653/terraform-aws-starter-kit/actions/workflows/terraform.yml/badge.svg)](https://github.com/anastanveer653/terraform-aws-starter-kit/actions/workflows/terraform.yml) |
-| [**envy**](https://github.com/anastanveer653/envy) | Encrypted, multi-environment `.env` manager (Argon2id + AES-256-GCM) with a git leak audit. Single binary for Linux, macOS and Windows. | Go, GoReleaser | [![CI](https://github.com/anastanveer653/envy/actions/workflows/ci.yml/badge.svg)](https://github.com/anastanveer653/envy/actions/workflows/ci.yml) |
-| **HR Time** *(private, in development)* | HR, attendance and leave management with role-based access, built as a Clean Architecture solution with unit-tested attendance and leave engines. | C#, .NET 10 Blazor, EF Core, SQL Server | — |
+<p align="center">
+  <a href="https://github.com/anastanveer653/windows-server-hardening-toolkit"><img src="assets/projects/windows-hardening.svg" width="48%" alt="Windows Server Hardening: audits, hardens and rolls back Windows Server security settings. 107 controls."></a>
+  <a href="https://github.com/anastanveer653/ansible-linux-server-automation"><img src="assets/projects/ansible-linux.svg" width="48%" alt="Linux Server Automation: Ansible roles that harden Ubuntu, Debian and RHEL servers. Tested on 6 distributions."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/anastanveer653/docker-monitoring-stack"><img src="assets/projects/docker-monitoring.svg" width="48%" alt="Docker Monitoring Stack: Prometheus, Grafana and Alertmanager with 21 tested alerts."></a>
+  <a href="https://github.com/anastanveer653/terraform-aws-starter-kit"><img src="assets/projects/terraform-aws.svg" width="48%" alt="Terraform AWS Starter Kit: highly available web tier on AWS with 20 terraform tests."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/anastanveer653/envy"><img src="assets/projects/envy.svg" width="48%" alt="envy: encrypted multi-environment .env manager for Linux, macOS and Windows."></a>
+  <img src="assets/projects/hr-time.svg" width="48%" alt="HR Time (private, in development): HR, attendance and leave management on .NET Blazor and SQL Server.">
+</p>
 
-## Tech stack
+<p align="center">
+  <a href="https://github.com/anastanveer653/windows-server-hardening-toolkit/actions"><img src="https://img.shields.io/github/actions/workflow/status/anastanveer653/windows-server-hardening-toolkit/ci.yml?branch=main&label=windows-hardening&style=flat-square" alt="windows-server-hardening-toolkit CI status"></a>
+  <a href="https://github.com/anastanveer653/ansible-linux-server-automation/actions"><img src="https://img.shields.io/github/actions/workflow/status/anastanveer653/ansible-linux-server-automation/ci.yml?branch=main&label=ansible-linux&style=flat-square" alt="ansible-linux-server-automation CI status"></a>
+  <a href="https://github.com/anastanveer653/docker-monitoring-stack/actions"><img src="https://img.shields.io/github/actions/workflow/status/anastanveer653/docker-monitoring-stack/ci.yml?branch=main&label=docker-monitoring&style=flat-square" alt="docker-monitoring-stack CI status"></a>
+  <a href="https://github.com/anastanveer653/terraform-aws-starter-kit/actions"><img src="https://img.shields.io/github/actions/workflow/status/anastanveer653/terraform-aws-starter-kit/terraform.yml?branch=main&label=terraform-aws&style=flat-square" alt="terraform-aws-starter-kit CI status"></a>
+  <a href="https://github.com/anastanveer653/envy/actions"><img src="https://img.shields.io/github/actions/workflow/status/anastanveer653/envy/ci.yml?branch=main&label=envy&style=flat-square" alt="envy CI status"></a>
+  <br><sub>Live CI status: every public project runs its tests on every push.</sub>
+</p>
+
+## 🧰 Tech stack
 
 | Area | Tools |
 |---|---|
@@ -62,13 +75,16 @@ anas:
 | Containers & monitoring | <img src="https://skillicons.dev/icons?i=docker,prometheus,grafana" alt="Docker, Prometheus, Grafana" height="40"> |
 | Programming & data | <img src="https://skillicons.dev/icons?i=cs,dotnet,go,py" alt="C#, .NET, Go, Python" height="40"> <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white" alt="Blazor"> <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge" alt="SQL Server"> <img src="https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge" alt="Entity Framework Core"> |
 
-## Activity
+## 📊 Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anastanveer653/anastanveer653/output/github-snake-dark.svg">
   <img src="https://raw.githubusercontent.com/anastanveer653/anastanveer653/output/github-snake.svg" alt="Contribution graph animation">
 </picture>
 
-## Get in touch
 
-Hiring for an IT infrastructure, systems or network role, on-site or remote? Or do you need servers and networks set up, secured or automated? Email me at **[anastanveer653@gmail.com](mailto:anastanveer653@gmail.com)** or message me on **[LinkedIn](https://www.linkedin.com/in/anastanveer-it/)**.
+<a href="mailto:anastanveer653@gmail.com"><img src="assets/footer.svg" width="100%" alt="Let's work together. IT infrastructure, systems and network roles, on-site or remote. Email anastanveer653@gmail.com"></a>
+
+<p align="center">
+  <a href="mailto:anastanveer653@gmail.com">anastanveer653@gmail.com</a> · <a href="https://www.linkedin.com/in/anastanveer-it/">linkedin.com/in/anastanveer-it</a> · Karachi, Pakistan (UTC+5)
+</p>
